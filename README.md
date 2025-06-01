@@ -4,7 +4,7 @@ This repository contains the code for the LLM Zoomcamp course and the solutions 
 
 ## Get LLM platform API key
 
-Depending on the LLM platform you want to use, you need to create an account and get the API key. Here, I use (Groq)[https://groq.com/], but you can use any other plaform of your choice. Just make sure to do the following once you have the API key:
+Depending on the LLM platform you want to use, you need to create an account and get the API key. Here, I use [Groq](https://groq.com/), but you can use any other plaform of your choice. Just make sure to do the following once you have the API key:
 
 * create a file called `.env` in the root of the repository and add the following line to it:
 ```
