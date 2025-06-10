@@ -10,3 +10,4 @@ groq
 python-dotenv
 transformers
 tiktoken
+qdrant-client[fastembed]>=1.14.2

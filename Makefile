@@ -8,7 +8,7 @@ help:
 	@echo "  all     - Set up venv, install requirements, and start Elasticsearch"
 
 up:
-	docker-compose -f docker-compose.elasticsearch.yaml up -d 
+	docker-compose up -d 
 
 venv:
 	python3 -m venv venv
@@ -21,8 +21,8 @@ all: install up
 	@echo "Environment ready: venv, requirements installed, and Elasticsearch running."
 
 down:
-	docker-compose -f docker-compose.elasticsearch.yaml down
+	docker-compose down
 
 clean:
 	rm -rf venv
-	docker-compose -f docker-compose.elasticsearch.yaml down --volumes --remove-orphans
+	docker-compose down --volumes --remove-orphans
