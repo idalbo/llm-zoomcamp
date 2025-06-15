@@ -19,11 +19,13 @@ If you don't want to use Github Codespaces, you can run the code locally using t
 
 The following commands are available::
 
-* `make all`: this will create a python virtual environment, install the dependencies, and start a container with elasticsearch. **Run this command before interacting with the code.**
-* `make down`: this will stop the container with elasticsearch.
+* `make all`: this will create a python virtual environment, install the dependencies, and start all the containers. **Run this command before interacting with the code.**
+* `make down`: this will stop the containers
 * `make install`: this will install the dependencies in the virtual environment.
 * `make venv`: this will create a python virtual environment.
-* `make up`: this will start a container with elasticsearch.
-* `make clean`: this will remove the python virtual environment and the container with elasticsearch.
+* `make up`: this will start all the containers.
+* `make clean`: this will remove the python virtual environment and all the containers.
 
 **Note**: `make all` already runs `make venv`, `make install`, and `make up`, so you don't need to run them separately.
+
+Current list of services spun up: elasticsearch, qdrant
