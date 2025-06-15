@@ -28,4 +28,4 @@ The following commands are available::
 
 **Note**: `make all` already runs `make venv`, `make install`, and `make up`, so you don't need to run them separately.
 
-Current list of services spun up: elasticsearch, qdrant
+Current list of services spun up: [elasticsearch](https://www.elastic.co/elasticsearch), [qdrant](https://qdrant.tech/)
