@@ -11,3 +11,5 @@ python-dotenv
 transformers
 tiktoken
 qdrant-client[fastembed]>=1.14.2
+dlt[qdrant]
+qdrant-client[fastembed]
